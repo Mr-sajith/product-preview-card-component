@@ -13,6 +13,19 @@
     --Font-size-paragraph: 14px;
 }
 
+@font-face {
+    font-family: fraunces;
+    src: url(./fonts/Fraunces/static/Fraunces_72pt-Bold.ttf);
+}
+@font-face {
+    font-family: montserrat-bold;
+    src: url(./fonts/Fraunces/static/Fraunces_144pt-Bold.ttf);
+}
+@font-face {
+    font-family: montserrat-semibold;
+    src: url(./fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
 body{
     display: flex;
     flex-wrap: wrap;
@@ -79,8 +92,7 @@ button:hover{
 a{
     text-decoration: none;
     color: var(--White);
-
-    font-weight: bold;
+    font-family: montserrat-semibold;
 
 
 }
@@ -105,6 +117,8 @@ article{
 .title-one{
     font-weight: lighter;
 
+    font-family: montserrat-semibold;
+
     text-transform: uppercase;
 
     letter-spacing: 0.5em;
@@ -113,11 +127,12 @@ article{
 }
 
 .title-two{
-    font-weight: bold;
     font-size: xx-large;
     line-height: 0.9em;
 
     margin: 0em 1em 0em 0px;
+
+    font-family: fraunces; 
     
 
 }
@@ -125,6 +140,8 @@ article{
 .pera{
     line-height: 1.5em;
     margin-right: 2em;
+    font-family: montserrat-semibold;
+    font-size: small;
 }
 
 .mrp{
@@ -135,6 +152,8 @@ article{
     color: var(--Dark-cyan);
     font-weight: bold;
     font-size: xx-large;
+
+    font-family: fraunces;
 }
 
 .orginal-price{
@@ -142,6 +161,8 @@ article{
     position: relative;
 
     bottom: 0.4em;
+
+    font-family: montserrat-semibold;
 
 
 }
